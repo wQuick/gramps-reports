@@ -3,13 +3,14 @@
 # PeopleCitations Report
 #
 #------------------------------------------------------------------------
+from gramps.version import major_version
 
 plg = newplugin()
 plg.id    = 'placefamilyreportlaeuft'
 plg.name  = _("Placefamily Report ok")
 plg.description =  _("Provides an Placefamily Report")
 plg.version = '1.0'
-plg.gramps_target_version = '5.2'
+plg.gramps_target_version = major_version
 plg.status = STABLE
 plg.fname = 'placefamilyreport-laeuft.py'
 plg.ptype = REPORT

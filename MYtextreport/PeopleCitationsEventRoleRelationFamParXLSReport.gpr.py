@@ -3,13 +3,14 @@
 # PeopleCitations Report
 #
 #------------------------------------------------------------------------
+from gramps.version import major_version
 
 plg = newplugin()
 plg.id    = 'PeopleCitationsEventRoleRelationFamParXLSReport'
 plg.name  = _("People Event Fam and Parents Role Relation Excel Report")
 plg.description =  _("Provides a Peoples report with citations Eventroles and Relation for Excel")
 plg.version = '1.0'
-plg.gramps_target_version = '5.2'
+plg.gramps_target_version = major_version
 plg.status = STABLE
 plg.fname = 'PeopleCitationsEventRoleRelationFamParXLSReport.py'
 plg.ptype = REPORT

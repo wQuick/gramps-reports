@@ -3,13 +3,14 @@
 # SourcesCitations Report
 #
 #------------------------------------------------------------------------
+from gramps.version import major_version
 
 plg = newplugin()
 plg.id    = 'mayavi-FAM-xlsxreport'
 plg.name  = _("MayAvi XLSX")
 plg.description =  _("Provides an Excelreport for MayAvi")
 plg.version = '1.0'
-plg.gramps_target_version = '5.2'
+plg.gramps_target_version = major_version
 plg.status = STABLE
 plg.fname = 'mayavi-FAM-xlsxreport.py'
 plg.ptype = REPORT

@@ -24,14 +24,14 @@
 # Birthday Report
 #
 #------------------------------------------------------------------------
+from gramps.version import major_version
 
 plg = newplugin()
-
 plg.id    = 'SourcesAllCitationsLineReport'
 plg.name  = _("Sources Complete Citations Line Report")
 plg.description =  _("Provides a source and Citations as single line")
 plg.version = '1.0'
-plg.gramps_target_version = '5.2'
+plg.gramps_target_version = major_version
 plg.status = STABLE
 plg.fname = 'sourcesallcitationslinereport.py'
 plg.ptype = REPORT

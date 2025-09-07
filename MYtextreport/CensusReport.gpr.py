@@ -25,13 +25,14 @@
 # Census Report
 #
 #------------------------------------------------------------------------
+from gramps.version import major_version
 
 register(REPORT,
          id = 'census_report',
          name = _("Census Report"),
          description =  _("Report of census events for a person."),
          version = '1.0.28',
-         gramps_target_version = '5.2',
+         gramps_target_version = major_version,
          status = STABLE, # not yet tested with python 3
          fname = 'CensusReport.py',
          authors = ["Nick Hall"],

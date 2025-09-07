@@ -19,7 +19,8 @@
 # Foundation, Inc., 51 Franklin Street, Fifth Floor, Boston, MA 02110-1301 USA.
 #
 
-MODULE_VERSION="5.2" 
+from gramps.version import major_version
+MODULE_VERSION=major_version
 
 #------------------------------------------------------------------------
 #

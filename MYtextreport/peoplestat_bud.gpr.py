@@ -3,13 +3,14 @@
 # SourcesCitations Report
 #
 #------------------------------------------------------------------------
+from gramps.version import major_version
 
 plg = newplugin()
 plg.id    = 'peoplestat_bud'
 plg.name  = _("People Statistics BuD Report")
 plg.description =  _("People Statistics BuD Report")
 plg.version = '1.0'
-plg.gramps_target_version = '5.2'
+plg.gramps_target_version = major_version
 plg.status = STABLE
 plg.fname = 'peoplestat_bud.py'
 plg.ptype = REPORT

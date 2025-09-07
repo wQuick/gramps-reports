@@ -3,13 +3,14 @@
 # SourcesCitations Report
 #
 #------------------------------------------------------------------------
+from gramps.version import major_version
 
 plg = newplugin()
 plg.id    = 'SourcesCitationsReport'
 plg.name  = _("Sources and Citations Report")
 plg.description =  _("Provides a source and Citations Report with notes")
 plg.version = '3.6.0'
-plg.gramps_target_version = '5.2'
+plg.gramps_target_version = major_version
 plg.status = STABLE
 plg.fname = 'SourcesCitationsReport.py'
 plg.ptype = REPORT

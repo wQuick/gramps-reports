@@ -3,13 +3,14 @@
 # SourcesCitations Report
 #
 #------------------------------------------------------------------------
+from gramps.version import major_version
 
 plg = newplugin()
 plg.id    = 'visone-Par-xlsxreport'
 plg.name  = _("VISONE Par XLSX")
 plg.description =  _("Provides a report for Excel")
 plg.version = '1.0'
-plg.gramps_target_version = '5.2'
+plg.gramps_target_version = major_version
 plg.status = STABLE
 plg.fname = 'visone-Par-xlsxreport.py'
 plg.ptype = REPORT

@@ -5,13 +5,14 @@
 #------------------------------------------------------------------------
 # Version 4.2
 # $Id: ledigquote.py 2015-06-19 Frink hansulrich.frink@gmail.com $
+from gramps.version import major_version
 
 plg = newplugin()
 plg.id    = 'ledigquote'
 plg.name  = _("Ledigenquote")
 plg.description =  _("Provides Table of unmarried in place")
 plg.version = '1.0'
-plg.gramps_target_version = '5.2'
+plg.gramps_target_version = major_version
 plg.status = STABLE
 plg.fname = 'ledigquote.py'
 plg.ptype = REPORT
